@@ -1,5 +1,84 @@
 @charset "utf-8";
 
+/*Impressão*/
 @media print {
-    
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg);/*Desnecessário*/
+    }
+
+    main{
+        border: 2px solid black;
+        width: 90%;
+    }
+
+    main::after{
+        content: 'Site básico para impressora';
+    }
+
+    h1{
+        text-shadow: none;
+        color: black;
+    }
+
+    #Phone{display: none;}
+
+    #Tablet{display: none;}
+
+    #Print{display: block;}
+
+    #Desktop{display: none;}
+
+    #Tv{display: none;}
+}
+
+/*Tablet*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #Phone{display: none;}
+
+    #Tablet{display: block;}
+
+    #Print{display: none;}
+
+    #Desktop{display: none;}
+
+    #Tv{display: none;}
+}
+
+/*Desktop*/
+@media screen and (min-width: 992px) and (max-width:1366px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #Phone{display: none;}
+
+    #Tablet{display: none;}
+
+    #Print{display: none;}
+
+    #Desktop{display: block;}
+
+    #Tv{display: none;}
+}
+
+/*Grande Telas*/
+@media screen and (min-width:1366px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #Phone{display: none;}
+
+    #Tablet{display: none;}
+
+    #Print{display: none;}
+
+    #Desktop{display: none;}
+
+    #Tv{display: block;}
 }

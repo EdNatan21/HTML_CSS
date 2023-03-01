@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/*Mobile First*/
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -39,22 +39,12 @@ img{
     margin: auto;
 }
 
-#Phone{
-    display: block;
-}
+#Phone{display: block;}
 
-#Tablet{
-    display: none;
-}
+#Tablet{display: none;}
 
-#Print{
-    display: none;
-}
+#Print{display: none;}
 
-#Desktop{
-    display: none;
-}
+#Desktop{display: none;}
 
-#Tv{
-    display: none;
-}
+#Tv{display: none;}
