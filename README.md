@@ -3,4 +3,4 @@
 
  Estou aprendendo a criar sites e vou gerenciar meus repositórios!
 
-<a href="https://ednatan21.github.io/Html-Css/Exercícios/Exe01/index.html"> executar o exercício 01 </a>
+<a href="https://ednatan21.github.io/Html-Css/Exercícios/Exe26/mq002"> executar o exercício 26 </a>
